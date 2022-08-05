@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <ul>
+        {% for member in members: %}
+        <li>{{ member }}</li>
+		<!-- {% print(member) %} -->
+	{% endfor %}
+	</ul>
+    </body>
+</html>
